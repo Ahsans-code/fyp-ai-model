@@ -1107,3 +1107,522 @@
 2026-03-05 09:56:43,336 - INFO - Successfully posted alert: smoke
 2026-03-05 09:58:01,955 - INFO - ALERT TRIGGERED: fighting at 0.58
 2026-03-05 09:58:04,585 - INFO - Successfully posted alert: fighting
+2026-04-12 16:02:50,971 - ERROR - Failed to load model: [Errno 2] No such file or directory: 'D:\\fyp\\ai_model_training\\My_Final_Model\\weights\\best.pt'
+2026-04-12 16:03:09,260 - ERROR - Failed to load model: [Errno 2] No such file or directory: 'D:\\fyp\\ai_model_training\\My_Final_Model\\weights\\best.pt'
+2026-04-12 16:04:23,324 - INFO - Model loaded successfully
+2026-04-12 16:04:25,551 - INFO - System Started. Press 'q' to quit.
+2026-04-12 16:08:34,134 - INFO - ALERT TRIGGERED: gun at 0.66
+2026-04-12 16:08:41,676 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-04-12 16:10:46,120 - INFO - ALERT TRIGGERED: smoke at 0.57
+2026-04-12 16:10:53,215 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-04-12 16:11:00,062 - INFO - ALERT TRIGGERED: gun at 0.71
+2026-04-12 16:11:07,290 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-04-15 04:50:28,483 - INFO - Model loaded successfully
+2026-04-15 04:50:36,690 - INFO - System Started. Press 'q' to quit.
+2026-04-15 04:53:23,604 - INFO - ALERT TRIGGERED: fire at 0.81
+2026-04-15 04:53:26,432 - INFO - Successfully posted alert: fire
+2026-04-15 04:55:54,398 - INFO - ALERT TRIGGERED: smoke at 0.51
+2026-04-15 04:55:56,776 - INFO - Successfully posted alert: smoke
+2026-04-15 05:04:56,939 - INFO - ALERT TRIGGERED: smoke at 0.65
+2026-04-15 05:05:00,808 - INFO - Successfully posted alert: smoke
+2026-04-15 05:06:40,008 - INFO - ALERT TRIGGERED: fire at 0.73
+2026-04-15 05:06:42,554 - INFO - Successfully posted alert: fire
+2026-04-15 05:07:23,009 - INFO - ALERT TRIGGERED: fire at 0.67
+2026-04-15 05:07:25,559 - INFO - Successfully posted alert: fire
+2026-04-15 05:10:05,063 - INFO - ALERT TRIGGERED: fire at 0.57
+2026-04-15 05:10:07,566 - INFO - Successfully posted alert: fire
+2026-04-15 05:11:57,183 - INFO - ALERT TRIGGERED: gun at 0.68
+2026-04-15 05:11:59,396 - INFO - Successfully posted alert: gun
+2026-04-15 05:12:13,795 - INFO - ALERT TRIGGERED: gun at 0.62
+2026-04-15 05:12:16,013 - INFO - Successfully posted alert: gun
+2026-04-15 05:14:32,900 - INFO - ALERT TRIGGERED: fire at 0.66
+2026-04-15 05:14:35,538 - INFO - Successfully posted alert: fire
+2026-04-15 05:15:57,613 - INFO - ALERT TRIGGERED: gun at 0.75
+2026-04-15 05:16:00,267 - INFO - Successfully posted alert: gun
+2026-04-15 05:17:53,087 - INFO - ALERT TRIGGERED: smoke at 0.53
+2026-04-15 05:17:55,650 - INFO - Successfully posted alert: smoke
+2026-04-15 05:18:17,376 - INFO - ALERT TRIGGERED: fire at 0.71
+2026-04-15 05:18:19,580 - INFO - Successfully posted alert: fire
+2026-04-15 05:20:39,077 - INFO - ALERT TRIGGERED: smoke at 0.62
+2026-04-15 05:20:41,532 - INFO - Successfully posted alert: smoke
+2026-04-15 05:21:04,323 - INFO - ALERT TRIGGERED: smoke at 0.60
+2026-04-15 05:21:06,574 - INFO - Successfully posted alert: smoke
+2026-04-18 15:15:18,323 - INFO - Model loaded successfully
+2026-04-18 15:15:20,700 - INFO - System Started. Press 'q' to quit.
+2026-04-18 15:16:28,871 - INFO - ALERT TRIGGERED: smoke at 0.65
+2026-04-18 15:16:31,770 - INFO - Successfully posted alert: smoke
+2026-04-18 15:17:26,040 - INFO - ALERT TRIGGERED: fighting at 0.64
+2026-04-18 15:17:28,696 - INFO - Successfully posted alert: fighting
+2026-04-18 15:19:10,641 - INFO - ALERT TRIGGERED: fire at 0.54
+2026-04-18 15:19:13,679 - INFO - Successfully posted alert: fire
+2026-04-19 04:06:27,037 - INFO - Model loaded successfully
+2026-04-19 04:06:34,545 - INFO - System Started. Press 'q' to quit.
+2026-04-19 04:57:10,999 - INFO - ALERT TRIGGERED: fire at 0.58
+2026-04-19 04:57:14,128 - INFO - Successfully posted alert: fire
+2026-04-19 04:58:05,620 - INFO - ALERT TRIGGERED: smoke at 0.73
+2026-04-19 04:58:08,309 - INFO - Successfully posted alert: smoke
+2026-04-19 04:59:14,201 - INFO - ALERT TRIGGERED: gun at 0.64
+2026-04-19 04:59:17,032 - INFO - Successfully posted alert: gun
+2026-04-19 05:00:41,857 - INFO - ALERT TRIGGERED: fire at 0.61
+2026-04-19 05:00:44,576 - INFO - Successfully posted alert: fire
+2026-04-19 05:01:58,924 - INFO - ALERT TRIGGERED: fire at 0.78
+2026-04-19 05:02:01,592 - INFO - Successfully posted alert: fire
+2026-04-19 05:02:15,656 - INFO - ALERT TRIGGERED: fire at 0.77
+2026-04-19 05:02:18,183 - INFO - Successfully posted alert: fire
+2026-04-19 05:03:28,035 - INFO - ALERT TRIGGERED: gun at 0.68
+2026-04-19 05:03:30,714 - INFO - Successfully posted alert: gun
+2026-04-19 05:04:01,186 - INFO - ALERT TRIGGERED: gun at 0.63
+2026-04-19 05:04:03,589 - INFO - Successfully posted alert: gun
+2026-04-19 05:05:30,190 - INFO - ALERT TRIGGERED: fire at 0.72
+2026-04-19 05:05:32,602 - INFO - Successfully posted alert: fire
+2026-04-19 05:05:47,030 - INFO - ALERT TRIGGERED: fire at 0.72
+2026-04-19 05:05:49,691 - INFO - Successfully posted alert: fire
+2026-04-19 05:07:48,559 - INFO - ALERT TRIGGERED: fire at 0.62
+2026-04-19 05:07:50,982 - INFO - Successfully posted alert: fire
+2026-04-19 05:08:03,806 - INFO - ALERT TRIGGERED: fire at 0.57
+2026-04-19 05:08:06,495 - INFO - Successfully posted alert: fire
+2026-04-19 05:08:18,293 - INFO - ALERT TRIGGERED: smoke at 0.80
+2026-04-19 05:08:20,865 - INFO - Successfully posted alert: smoke
+2026-04-19 05:08:39,586 - INFO - ALERT TRIGGERED: fire at 0.59
+2026-04-19 05:08:42,118 - INFO - Successfully posted alert: fire
+2026-04-19 05:09:24,443 - INFO - ALERT TRIGGERED: smoke at 0.64
+2026-04-19 05:09:26,896 - INFO - Successfully posted alert: smoke
+2026-04-19 05:09:41,335 - INFO - ALERT TRIGGERED: smoke at 0.69
+2026-04-19 05:09:44,191 - INFO - Successfully posted alert: smoke
+2026-04-19 05:10:17,254 - INFO - ALERT TRIGGERED: gun at 0.66
+2026-04-19 05:10:19,666 - INFO - Successfully posted alert: gun
+2026-04-19 05:10:36,256 - INFO - ALERT TRIGGERED: fire at 0.53
+2026-04-19 05:10:38,877 - INFO - Successfully posted alert: fire
+2026-04-19 05:48:21,525 - INFO - ALERT TRIGGERED: smoke at 0.60
+2026-04-19 05:48:25,095 - INFO - Successfully posted alert: smoke
+2026-04-20 00:53:41,058 - INFO - Model loaded successfully
+2026-04-20 00:53:44,659 - INFO - System Started. Press 'q' to quit.
+2026-04-20 01:17:14,491 - INFO - ALERT TRIGGERED: fire at 0.64
+2026-04-20 01:17:17,959 - INFO - Successfully posted alert: fire
+2026-04-20 01:18:26,863 - INFO - ALERT TRIGGERED: gun at 0.65
+2026-04-20 01:18:29,452 - INFO - Successfully posted alert: gun
+2026-04-20 01:18:33,813 - INFO - ALERT TRIGGERED: fighting at 0.77
+2026-04-20 01:18:36,805 - INFO - Successfully posted alert: fighting
+2026-04-20 01:20:07,204 - INFO - Model loaded successfully
+2026-04-20 01:20:12,983 - INFO - System Started. Press 'q' to quit.
+2026-04-20 01:21:33,750 - INFO - ALERT TRIGGERED: gun at 0.67
+2026-04-20 01:21:36,318 - INFO - Successfully posted alert: gun
+2026-04-20 01:21:47,474 - INFO - ALERT TRIGGERED: smoke at 0.59
+2026-04-20 01:21:50,127 - INFO - Successfully posted alert: smoke
+2026-04-20 01:22:32,857 - INFO - ALERT TRIGGERED: smoke at 0.51
+2026-04-20 01:22:35,443 - INFO - Successfully posted alert: smoke
+2026-04-20 01:23:31,529 - INFO - ALERT TRIGGERED: smoke at 0.52
+2026-04-20 01:23:34,143 - INFO - Successfully posted alert: smoke
+2026-04-20 01:23:52,618 - INFO - ALERT TRIGGERED: fighting at 0.75
+2026-04-20 01:23:55,456 - INFO - Successfully posted alert: fighting
+2026-04-20 01:24:15,428 - INFO - ALERT TRIGGERED: smoke at 0.51
+2026-04-20 01:24:18,048 - INFO - Successfully posted alert: smoke
+2026-04-20 01:25:48,432 - INFO - ALERT TRIGGERED: smoke at 0.58
+2026-04-20 01:25:51,070 - INFO - Successfully posted alert: smoke
+2026-04-20 01:26:05,143 - INFO - ALERT TRIGGERED: smoke at 0.51
+2026-04-20 01:26:07,737 - INFO - Successfully posted alert: smoke
+2026-04-20 01:26:28,055 - INFO - ALERT TRIGGERED: smoke at 0.57
+2026-04-20 01:26:30,760 - INFO - Successfully posted alert: smoke
+2026-04-20 01:27:01,742 - INFO - ALERT TRIGGERED: fire at 0.59
+2026-04-20 01:27:04,586 - INFO - Successfully posted alert: fire
+2026-04-20 01:27:18,830 - INFO - ALERT TRIGGERED: fire at 0.66
+2026-04-20 01:27:21,444 - INFO - Successfully posted alert: fire
+2026-04-20 01:28:12,288 - INFO - ALERT TRIGGERED: smoke at 0.64
+2026-04-20 01:28:15,221 - INFO - Successfully posted alert: smoke
+2026-04-20 01:30:51,452 - INFO - Model loaded successfully
+2026-04-20 01:30:55,146 - INFO - System Started. Press 'q' to quit.
+2026-04-20 01:31:20,711 - INFO - ALERT TRIGGERED: fire at 0.69
+2026-04-20 01:31:23,494 - INFO - Successfully posted alert: fire
+2026-04-20 01:32:08,257 - INFO - ALERT TRIGGERED: fire at 0.55
+2026-04-20 01:32:10,716 - INFO - Successfully posted alert: fire
+2026-04-20 01:32:33,429 - INFO - ALERT TRIGGERED: gun at 0.82
+2026-04-20 01:32:36,011 - INFO - Successfully posted alert: gun
+2026-04-20 01:32:59,110 - INFO - ALERT TRIGGERED: fire at 0.65
+2026-04-20 01:33:02,278 - INFO - Successfully posted alert: fire
+2026-04-20 01:33:16,076 - INFO - ALERT TRIGGERED: gun at 0.69
+2026-04-20 01:33:18,643 - INFO - Successfully posted alert: gun
+2026-04-20 01:33:52,312 - INFO - ALERT TRIGGERED: gun at 0.65
+2026-04-20 01:33:54,656 - INFO - Successfully posted alert: gun
+2026-04-20 01:34:55,826 - INFO - ALERT TRIGGERED: smoke at 0.81
+2026-04-20 01:34:58,334 - INFO - Successfully posted alert: smoke
+2026-04-20 15:32:57,639 - INFO - Model loaded successfully
+2026-04-20 15:33:02,822 - INFO - System Started. Press 'q' to quit.
+2026-04-20 15:34:59,012 - INFO - ALERT TRIGGERED: smoke at 0.59
+2026-04-20 15:35:02,186 - INFO - Successfully posted alert: smoke
+2026-04-20 15:37:28,495 - INFO - ALERT TRIGGERED: fire at 0.56
+2026-04-20 15:37:36,018 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-04-20 15:37:56,808 - INFO - ALERT TRIGGERED: gun at 0.85
+2026-04-20 15:38:00,662 - INFO - Successfully posted alert: gun
+2026-04-20 15:40:19,457 - INFO - ALERT TRIGGERED: smoke at 0.50
+2026-04-20 15:40:22,105 - INFO - Successfully posted alert: smoke
+2026-04-20 15:40:35,092 - INFO - ALERT TRIGGERED: gun at 0.66
+2026-04-20 15:40:37,635 - INFO - Successfully posted alert: gun
+2026-04-20 15:41:16,916 - INFO - ALERT TRIGGERED: smoke at 0.68
+2026-04-20 15:41:19,366 - INFO - Successfully posted alert: smoke
+2026-04-20 15:41:41,469 - INFO - ALERT TRIGGERED: gun at 0.73
+2026-04-20 15:41:43,911 - INFO - Successfully posted alert: gun
+2026-04-20 15:41:57,051 - INFO - ALERT TRIGGERED: smoke at 0.72
+2026-04-20 15:41:59,747 - INFO - Successfully posted alert: smoke
+2026-04-20 15:42:10,299 - INFO - ALERT TRIGGERED: gun at 0.77
+2026-04-20 15:42:13,057 - INFO - Successfully posted alert: gun
+2026-04-20 15:42:41,116 - INFO - ALERT TRIGGERED: gun at 0.62
+2026-04-20 15:42:43,951 - INFO - Successfully posted alert: gun
+2026-04-20 15:43:55,581 - INFO - ALERT TRIGGERED: gun at 0.63
+2026-04-20 15:43:58,763 - INFO - Successfully posted alert: gun
+2026-04-20 15:44:16,189 - INFO - ALERT TRIGGERED: gun at 0.74
+2026-04-20 15:44:18,767 - INFO - Successfully posted alert: gun
+2026-04-20 15:44:41,309 - INFO - ALERT TRIGGERED: gun at 0.71
+2026-04-20 15:44:43,898 - INFO - Successfully posted alert: gun
+2026-04-20 15:46:43,164 - INFO - ALERT TRIGGERED: fire at 0.79
+2026-04-20 15:46:46,002 - INFO - Successfully posted alert: fire
+2026-04-20 15:47:03,822 - INFO - ALERT TRIGGERED: gun at 0.74
+2026-04-20 15:47:06,446 - INFO - Successfully posted alert: gun
+2026-04-22 03:15:57,371 - INFO - Model loaded successfully
+2026-04-22 03:16:03,465 - INFO - System Started. Press 'q' to quit.
+2026-04-22 03:41:01,830 - INFO - Model loaded successfully
+2026-04-22 03:41:03,705 - INFO - System Started. Press 'q' to quit.
+2026-04-22 03:44:34,730 - INFO - Model loaded successfully
+2026-04-22 03:44:39,238 - INFO - System Started. Press 'q' to quit.
+2026-04-22 04:24:33,171 - INFO - Model loaded successfully
+2026-04-22 04:24:37,555 - INFO - System Started. Press 'q' to quit.
+2026-04-22 04:25:40,567 - INFO - ALERT TRIGGERED: fire at 0.76
+2026-04-22 04:25:43,630 - INFO - Successfully posted alert: fire
+2026-04-22 04:26:19,991 - INFO - ALERT TRIGGERED: fighting at 0.56
+2026-04-22 04:26:22,959 - INFO - Successfully posted alert: fighting
+2026-04-22 04:26:49,944 - INFO - ALERT TRIGGERED: smoke at 0.81
+2026-04-22 04:26:52,684 - INFO - Successfully posted alert: smoke
+2026-04-22 04:27:12,905 - INFO - ALERT TRIGGERED: gun at 0.69
+2026-04-22 04:27:15,305 - INFO - Successfully posted alert: gun
+2026-04-22 04:27:54,708 - INFO - ALERT TRIGGERED: fighting at 0.74
+2026-04-22 04:27:57,526 - INFO - Successfully posted alert: fighting
+2026-04-22 04:28:11,062 - INFO - ALERT TRIGGERED: fighting at 0.58
+2026-04-22 04:28:13,715 - INFO - Successfully posted alert: fighting
+2026-04-22 04:28:57,258 - INFO - ALERT TRIGGERED: fighting at 0.74
+2026-04-22 04:28:59,777 - INFO - Successfully posted alert: fighting
+2026-04-22 04:29:15,863 - INFO - ALERT TRIGGERED: fighting at 0.63
+2026-04-22 04:29:18,663 - INFO - Successfully posted alert: fighting
+2026-04-22 04:29:52,891 - INFO - ALERT TRIGGERED: fire at 0.62
+2026-04-22 04:29:55,528 - INFO - Successfully posted alert: fire
+2026-04-22 04:30:09,752 - INFO - ALERT TRIGGERED: gun at 0.76
+2026-04-22 04:30:12,238 - INFO - Successfully posted alert: gun
+2026-04-22 04:30:37,372 - INFO - ALERT TRIGGERED: smoke at 0.60
+2026-04-22 04:30:40,005 - INFO - Successfully posted alert: smoke
+2026-04-22 04:31:45,697 - INFO - ALERT TRIGGERED: gun at 0.80
+2026-04-22 04:31:48,284 - INFO - Successfully posted alert: gun
+2026-04-22 04:32:02,483 - INFO - ALERT TRIGGERED: gun at 0.60
+2026-04-22 04:32:05,104 - INFO - Successfully posted alert: gun
+2026-04-22 04:33:38,856 - INFO - ALERT TRIGGERED: fire at 0.65
+2026-04-22 04:33:41,380 - INFO - Successfully posted alert: fire
+2026-04-22 04:35:01,742 - INFO - ALERT TRIGGERED: fire at 0.65
+2026-04-22 04:35:04,563 - INFO - Successfully posted alert: fire
+2026-04-22 04:35:57,680 - INFO - ALERT TRIGGERED: gun at 0.74
+2026-04-22 04:36:00,401 - INFO - Successfully posted alert: gun
+2026-04-22 04:36:31,356 - INFO - ALERT TRIGGERED: gun at 0.67
+2026-04-22 04:36:34,020 - INFO - Successfully posted alert: gun
+2026-04-22 04:36:57,563 - INFO - ALERT TRIGGERED: gun at 0.67
+2026-04-22 04:37:00,311 - INFO - Successfully posted alert: gun
+2026-04-22 04:40:10,037 - INFO - ALERT TRIGGERED: gun at 0.69
+2026-04-22 04:40:12,707 - INFO - Successfully posted alert: gun
+2026-04-23 13:09:19,907 - INFO - Model loaded successfully
+2026-04-23 13:09:25,259 - INFO - System Started. Press 'q' to quit.
+2026-04-23 13:10:08,741 - INFO - ALERT TRIGGERED: smoke at 0.52
+2026-04-23 13:10:11,293 - INFO - Successfully posted alert: smoke
+2026-04-23 13:11:12,848 - INFO - ALERT TRIGGERED: fire at 0.63
+2026-04-23 13:11:15,527 - INFO - Successfully posted alert: fire
+2026-04-23 13:12:50,535 - INFO - ALERT TRIGGERED: fire at 0.66
+2026-04-23 13:12:53,125 - INFO - Successfully posted alert: fire
+2026-04-23 13:15:17,300 - INFO - ALERT TRIGGERED: fire at 0.54
+2026-04-23 13:15:19,912 - INFO - Successfully posted alert: fire
+2026-04-23 13:16:12,359 - INFO - ALERT TRIGGERED: gun at 0.74
+2026-04-23 13:16:15,066 - INFO - Successfully posted alert: gun
+2026-04-23 13:17:13,579 - INFO - ALERT TRIGGERED: gun at 0.67
+2026-04-23 13:17:16,175 - INFO - Successfully posted alert: gun
+2026-04-23 13:23:03,815 - INFO - ALERT TRIGGERED: gun at 0.64
+2026-04-23 13:23:06,311 - INFO - Successfully posted alert: gun
+2026-04-23 13:25:53,002 - INFO - ALERT TRIGGERED: gun at 0.84
+2026-04-23 13:25:55,476 - INFO - Successfully posted alert: gun
+2026-04-23 13:31:23,227 - INFO - ALERT TRIGGERED: fire at 0.55
+2026-04-23 13:31:26,308 - INFO - Successfully posted alert: fire
+2026-04-23 14:53:01,430 - INFO - Model loaded successfully
+2026-04-23 14:53:03,647 - INFO - System Started. Press 'q' to quit.
+2026-04-23 14:53:51,997 - INFO - Model loaded successfully
+2026-04-23 14:53:53,803 - INFO - System Started. Press 'q' to quit.
+2026-04-23 15:08:19,166 - INFO - ALERT TRIGGERED: fire at 0.65
+2026-04-23 15:08:24,720 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /alerts/ai (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-04-27 06:18:05,501 - INFO - Model loaded successfully
+2026-04-27 06:18:11,760 - INFO - System Started. Press 'q' to quit.
+2026-04-27 06:21:18,721 - INFO - ALERT TRIGGERED: gun at 0.76
+2026-04-27 06:21:21,561 - INFO - Successfully posted alert: gun
+2026-04-27 06:21:36,495 - INFO - ALERT TRIGGERED: gun at 0.73
+2026-04-27 06:21:39,067 - INFO - Successfully posted alert: gun
+2026-04-27 06:21:51,962 - INFO - ALERT TRIGGERED: gun at 0.76
+2026-04-27 06:21:54,347 - INFO - Successfully posted alert: gun
+2026-04-27 06:22:07,514 - INFO - ALERT TRIGGERED: gun at 0.82
+2026-04-27 06:22:10,216 - INFO - Successfully posted alert: gun
+2026-04-27 06:23:14,298 - INFO - ALERT TRIGGERED: gun at 0.71
+2026-04-27 06:23:17,176 - INFO - Successfully posted alert: gun
+2026-04-27 06:23:30,510 - INFO - ALERT TRIGGERED: gun at 0.67
+2026-04-27 06:23:32,847 - INFO - Successfully posted alert: gun
+2026-04-27 06:27:46,755 - INFO - ALERT TRIGGERED: fire at 0.59
+2026-04-27 06:27:50,069 - INFO - Successfully posted alert: fire
+2026-04-27 06:28:10,503 - INFO - ALERT TRIGGERED: gun at 0.72
+2026-04-27 06:28:13,041 - INFO - Successfully posted alert: gun
+2026-04-27 06:28:40,523 - INFO - ALERT TRIGGERED: gun at 0.72
+2026-04-27 06:28:42,859 - INFO - Successfully posted alert: gun
+2026-04-27 06:31:39,255 - INFO - ALERT TRIGGERED: fire at 0.62
+2026-04-27 06:31:41,809 - INFO - Successfully posted alert: fire
+2026-04-27 06:32:10,773 - INFO - ALERT TRIGGERED: fire at 0.53
+2026-04-27 06:32:14,842 - INFO - Successfully posted alert: fire
+2026-04-27 06:36:33,202 - INFO - ALERT TRIGGERED: fire at 0.56
+2026-04-27 06:36:35,590 - INFO - ALERT TRIGGERED: fighting at 0.67
+2026-04-27 06:36:35,963 - INFO - Successfully posted alert: fire
+2026-04-27 06:36:38,648 - INFO - Successfully posted alert: fighting
+2026-04-27 06:37:01,469 - INFO - ALERT TRIGGERED: fighting at 0.62
+2026-04-27 06:37:03,948 - INFO - Successfully posted alert: fighting
+2026-04-27 06:37:53,131 - INFO - ALERT TRIGGERED: fighting at 0.77
+2026-04-27 06:37:55,538 - INFO - Successfully posted alert: fighting
+2026-04-27 06:51:57,870 - INFO - Model loaded successfully
+2026-04-27 06:51:59,842 - INFO - System Started. Press 'q' to quit.
+2026-04-27 06:55:12,954 - INFO - ALERT TRIGGERED: fire at 0.63
+2026-04-27 06:55:15,208 - INFO - Successfully posted alert: fire
+2026-04-27 06:55:40,894 - INFO - ALERT TRIGGERED: fire at 0.57
+2026-04-27 06:55:43,520 - INFO - Successfully posted alert: fire
+2026-04-27 06:56:04,349 - INFO - ALERT TRIGGERED: smoke at 0.55
+2026-04-27 06:56:06,553 - INFO - Successfully posted alert: smoke
+2026-04-27 06:56:45,235 - INFO - ALERT TRIGGERED: smoke at 0.55
+2026-04-27 06:56:47,715 - INFO - Successfully posted alert: smoke
+2026-04-27 06:57:39,956 - INFO - ALERT TRIGGERED: smoke at 0.52
+2026-04-27 06:57:42,602 - INFO - Successfully posted alert: smoke
+2026-04-27 10:22:40,747 - INFO - Model loaded successfully
+2026-04-27 10:22:46,654 - INFO - System Started. Press 'q' to quit.
+2026-04-27 10:26:35,498 - INFO - ALERT TRIGGERED: gun at 0.69
+2026-04-27 10:26:38,453 - INFO - Successfully posted alert: gun
+2026-04-27 10:30:44,265 - INFO - Model loaded successfully
+2026-04-27 10:30:49,448 - INFO - System Started. Press 'q' to quit.
+2026-04-27 10:34:56,653 - INFO - Model loaded successfully
+2026-04-27 10:34:58,400 - INFO - System Started. Press 'q' to quit.
+2026-04-27 10:34:58,401 - INFO - SYSTEM ACTIVE. Shortcuts: Ctrl+G:Gun, Ctrl+F:Fire, Ctrl+B:Fight, Ctrl+K:Smoke
+2026-04-27 10:41:34,766 - INFO - Model loaded successfully
+2026-04-27 10:41:36,595 - INFO - System Started. Press 'q' to quit.
+2026-04-27 10:41:36,596 - INFO - SYSTEM ACTIVE. Shortcuts: Ctrl+G:Gun, Ctrl+F:Fire, Ctrl+B:Fight, Ctrl+K:Smoke
+2026-04-27 10:42:07,500 - WARNING - !!! MANUAL TRIGGER: Ctrl + Key detected for GUN !!!
+2026-04-27 10:42:10,036 - INFO - Successfully posted alert: gun
+2026-04-27 10:42:23,469 - WARNING - !!! MANUAL TRIGGER: Ctrl + Key detected for SMOKE !!!
+2026-04-27 10:42:25,716 - INFO - Successfully posted alert: smoke
+2026-04-27 10:43:18,190 - INFO - ALERT TRIGGERED: gun at 0.68
+2026-04-27 10:43:20,443 - INFO - Successfully posted alert: gun
+2026-04-27 10:43:35,307 - INFO - ALERT TRIGGERED: smoke at 0.73
+2026-04-27 10:43:37,939 - INFO - Successfully posted alert: smoke
+2026-04-27 10:50:12,201 - INFO - Model loaded successfully
+2026-04-27 10:50:14,067 - INFO - System Started. Press 'q' to quit.
+2026-04-27 10:55:37,365 - WARNING - Successfully posted alert: SMOKE !!!
+2026-04-27 10:59:25,164 - INFO - Model loaded successfully
+2026-04-27 10:59:31,221 - INFO - System Started. Press 'q' to quit.
+2026-04-27 11:01:05,187 - WARNING - Successfully posted alert: SMOKE !!!
+2026-04-27 11:01:07,723 - INFO - Successfully posted alert: smoke
+2026-04-27 11:01:24,253 - WARNING - Successfully posted alert: GUN !!!
+2026-04-27 11:01:26,834 - INFO - Successfully posted alert: gun
+2026-04-27 11:01:46,740 - WARNING - Successfully posted alert: FIGHTING !!!
+2026-04-27 11:01:48,959 - INFO - Successfully posted alert: fighting
+2026-04-27 11:02:02,008 - WARNING - Successfully posted alert: FIRE !!!
+2026-04-27 11:02:04,233 - INFO - Successfully posted alert: fire
+2026-04-27 11:03:08,951 - INFO - ALERT TRIGGERED: gun at 0.60
+2026-04-27 11:03:11,168 - INFO - Successfully posted alert: gun
+2026-04-27 11:03:16,690 - INFO - ALERT TRIGGERED: fire at 0.67
+2026-04-27 11:03:19,105 - INFO - Successfully posted alert: fire
+2026-04-27 11:11:49,787 - INFO - ALERT TRIGGERED: smoke at 0.56
+2026-04-27 11:11:52,409 - INFO - Successfully posted alert: smoke
+2026-04-27 11:11:53,764 - INFO - ALERT TRIGGERED: gun at 0.70
+2026-04-27 11:11:56,135 - INFO - Successfully posted alert: gun
+2026-04-27 11:12:04,917 - INFO - ALERT TRIGGERED: fire at 0.70
+2026-04-27 11:12:07,429 - INFO - Successfully posted alert: fire
+2026-04-27 11:12:16,195 - INFO - ALERT TRIGGERED: smoke at 0.59
+2026-04-27 11:12:18,878 - INFO - Successfully posted alert: smoke
+2026-04-27 11:18:30,697 - INFO - ALERT TRIGGERED: fire at 0.64
+2026-04-27 11:18:33,312 - INFO - Successfully posted alert: fire
+2026-04-27 11:18:47,729 - INFO - ALERT TRIGGERED: gun at 0.65
+2026-04-27 11:18:50,137 - INFO - Successfully posted alert: gun
+2026-04-27 11:18:53,299 - INFO - ALERT TRIGGERED: fire at 0.58
+2026-04-27 11:18:55,864 - INFO - Successfully posted alert: fire
+2026-04-27 11:19:22,823 - INFO - ALERT TRIGGERED: gun at 0.79
+2026-04-27 11:19:25,316 - INFO - Successfully posted alert: gun
+2026-04-27 11:20:10,393 - INFO - ALERT TRIGGERED: gun at 0.78
+2026-04-27 11:20:12,604 - INFO - Successfully posted alert: gun
+2026-04-27 11:20:27,145 - INFO - ALERT TRIGGERED: gun at 0.75
+2026-04-27 11:20:29,792 - INFO - Successfully posted alert: gun
+2026-04-27 11:21:01,018 - INFO - ALERT TRIGGERED: gun at 0.71
+2026-04-27 11:21:03,241 - INFO - Successfully posted alert: gun
+2026-04-27 11:22:42,473 - INFO - ALERT TRIGGERED: gun at 0.74
+2026-04-27 11:22:44,889 - INFO - Successfully posted alert: gun
+2026-04-27 11:23:36,418 - INFO - ALERT TRIGGERED: gun at 0.67
+2026-04-27 11:23:38,656 - INFO - Successfully posted alert: gun
+2026-04-27 11:24:40,488 - WARNING - Successfully posted alert: GUN !!!
+2026-04-27 11:24:43,190 - INFO - Successfully posted alert: gun
+2026-04-27 15:09:37,194 - INFO - Model loaded successfully
+2026-04-27 15:09:43,443 - ERROR - Camera source not found
+2026-04-27 15:12:23,269 - INFO - Model loaded successfully
+2026-04-27 15:12:23,612 - ERROR - Camera source not found
+2026-04-27 15:24:17,788 - INFO - Model loaded successfully
+2026-04-27 15:25:43,254 - ERROR - Camera source not found
+2026-04-27 15:26:13,572 - INFO - Model loaded successfully
+2026-04-27 17:38:55,347 - INFO - Model loaded successfully
+2026-04-27 17:39:00,149 - INFO - System Started. Press 'q' to quit.
+2026-04-27 17:40:10,196 - INFO - ALERT TRIGGERED: gun at 0.75
+2026-04-27 17:40:12,958 - INFO - Successfully posted alert: gun
+2026-04-27 17:40:52,417 - INFO - ALERT TRIGGERED: fire at 0.78
+2026-04-27 17:40:59,783 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-04-27 17:41:19,829 - INFO - ALERT TRIGGERED: gun at 0.79
+2026-04-27 17:41:26,895 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-04-27 17:41:49,621 - INFO - ALERT TRIGGERED: gun at 0.77
+2026-04-27 17:41:56,661 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-07-12 09:22:10,686 - INFO - Model loaded successfully
+2026-07-12 09:22:11,602 - ERROR - Camera source not found
+2026-07-12 09:32:08,811 - INFO - Model loaded successfully
+2026-07-12 09:32:09,284 - ERROR - Camera source not found
+2026-07-12 09:40:12,761 - INFO - Model loaded successfully
+2026-07-12 09:40:12,964 - ERROR - Camera source not found
+2026-07-12 09:44:14,333 - INFO - Model loaded successfully
+2026-07-12 09:44:14,828 - INFO - System Started. Press 'q' to quit.
+2026-07-12 09:51:52,172 - INFO - Model loaded successfully
+2026-07-12 09:51:53,486 - ERROR - Camera source not found
+2026-07-12 09:53:35,070 - INFO - Model loaded successfully
+2026-07-12 09:53:35,451 - ERROR - Camera source not found
+2026-07-12 09:54:07,306 - INFO - Model loaded successfully
+2026-07-12 09:54:07,502 - ERROR - Camera source not found
+2026-07-12 09:54:39,630 - INFO - Model loaded successfully
+2026-07-12 09:54:39,799 - ERROR - Camera source not found
+2026-07-12 09:55:18,049 - INFO - Model loaded successfully
+2026-07-12 09:55:18,520 - INFO - System Started. Press 'q' to quit.
+2026-07-12 09:57:45,929 - INFO - Model loaded successfully
+2026-07-12 09:57:49,605 - ERROR - Camera source not found
+2026-07-12 10:15:42,118 - INFO - Model loaded successfully
+2026-07-12 10:15:47,890 - ERROR - Camera source not found
+2026-07-12 10:16:13,524 - INFO - Model loaded successfully
+2026-07-12 10:16:16,806 - ERROR - Camera source not found
+2026-07-12 10:20:00,801 - INFO - Model loaded successfully
+2026-07-12 10:20:01,245 - INFO - System Started. Press 'q' to quit.
+2026-07-12 10:21:25,651 - INFO - ALERT TRIGGERED: smoke at 0.66
+2026-07-12 10:21:29,933 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /alerts/ai (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-07-12 10:22:23,590 - INFO - ALERT TRIGGERED: smoke at 0.76
+2026-07-12 10:22:28,363 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /alerts/ai (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-07-12 10:22:53,215 - INFO - ALERT TRIGGERED: fire at 0.60
+2026-07-12 10:22:57,740 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /alerts/ai (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-07-12 10:23:22,045 - INFO - ALERT TRIGGERED: smoke at 0.52
+2026-07-12 10:23:26,222 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /alerts/ai (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-07-12 10:23:43,691 - INFO - ALERT TRIGGERED: smoke at 0.77
+2026-07-12 10:23:48,160 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /alerts/ai (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-07-12 10:29:54,619 - INFO - ALERT TRIGGERED: smoke at 0.53
+2026-07-12 10:29:59,373 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /alerts/ai (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-07-12 10:34:37,462 - INFO - Model loaded successfully
+2026-07-12 10:34:43,124 - INFO - System Started. Press 'q' to quit.
+2026-07-12 10:35:20,368 - INFO - ALERT TRIGGERED: fire at 0.63
+2026-07-12 10:35:24,980 - ERROR - API Request Failed: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /alerts/ai (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-07-12 10:43:51,902 - INFO - Model loaded successfully
+2026-07-12 10:43:52,281 - INFO - System Started. Press 'q' to quit.
+2026-07-12 10:45:14,104 - INFO - ALERT TRIGGERED: smoke at 0.59
+2026-07-12 10:45:16,935 - INFO - Successfully posted alert: smoke
+2026-07-12 10:45:36,076 - INFO - ALERT TRIGGERED: gun at 0.61
+2026-07-12 10:45:38,749 - INFO - Successfully posted alert: gun
+2026-07-12 10:46:33,127 - INFO - ALERT TRIGGERED: smoke at 0.53
+2026-07-12 10:46:35,942 - INFO - Successfully posted alert: smoke
+2026-07-13 03:44:32,203 - INFO - Model loaded successfully
+2026-07-13 03:44:34,772 - INFO - System Started. Press 'q' to quit.
+2026-07-13 03:47:03,462 - INFO - ALERT TRIGGERED: fire at 0.61
+2026-07-13 03:47:08,247 - INFO - Successfully posted alert: fire
+2026-07-18 02:47:52,589 - INFO - Model loaded successfully
+2026-07-18 02:47:53,455 - INFO - System Started. Press 'q' to quit.
+2026-07-18 02:49:39,846 - INFO - ALERT TRIGGERED: gun at 0.80
+2026-07-18 02:49:47,296 - INFO - Successfully posted alert: gun
+2026-07-18 02:50:12,139 - INFO - ALERT TRIGGERED: gun at 0.71
+2026-07-18 02:50:15,175 - INFO - Successfully posted alert: gun
+2026-07-18 02:50:27,678 - INFO - ALERT TRIGGERED: gun at 0.61
+2026-07-18 02:50:30,461 - INFO - Successfully posted alert: gun
+2026-07-18 02:51:51,744 - INFO - ALERT TRIGGERED: gun at 0.77
+2026-07-18 02:51:54,835 - INFO - Successfully posted alert: gun
+2026-07-18 03:08:44,053 - INFO - Model loaded successfully
+2026-07-18 03:08:44,934 - INFO - Starting frame reader thread...
+2026-07-18 03:08:44,936 - INFO - System Started. Press 'q' to quit.
+2026-07-18 03:10:38,261 - INFO - ALERT TRIGGERED: gun at 0.69
+2026-07-18 03:10:40,777 - INFO - Successfully posted alert: gun
+2026-07-18 03:12:55,078 - INFO - ALERT TRIGGERED: fire at 0.65
+2026-07-18 03:12:57,416 - INFO - Successfully posted alert: fire
+2026-07-18 03:18:01,262 - INFO - Model loaded successfully
+2026-07-18 03:18:01,797 - INFO - Starting frame reader thread...
+2026-07-18 03:18:01,798 - INFO - System Started. Press 'q' to quit.
+2026-07-18 03:18:56,108 - INFO - ALERT TRIGGERED: fighting at 0.63
+2026-07-18 03:18:58,921 - INFO - Successfully posted alert: fighting
+2026-07-18 03:19:13,118 - INFO - ALERT TRIGGERED: fighting at 0.60
+2026-07-18 03:19:15,682 - INFO - Successfully posted alert: fighting
+2026-07-18 03:19:20,706 - INFO - ALERT TRIGGERED: gun at 0.80
+2026-07-18 03:19:23,889 - INFO - Successfully posted alert: gun
+2026-07-18 03:20:27,319 - INFO - ALERT TRIGGERED: fighting at 0.67
+2026-07-18 03:20:30,224 - INFO - Successfully posted alert: fighting
+2026-07-18 03:22:40,822 - INFO - Model loaded successfully
+2026-07-18 03:22:41,425 - INFO - Starting frame reader thread...
+2026-07-18 03:22:41,426 - INFO - System Started. Press 'q' to quit.
+2026-07-18 04:16:08,692 - INFO - Model loaded successfully
+2026-07-18 04:16:09,291 - INFO - Starting frame reader thread...
+2026-07-18 04:16:09,292 - INFO - System Started. Press 'q' to quit.
+2026-07-18 04:16:38,188 - INFO - ALERT TRIGGERED: gun at 0.60
+2026-07-18 04:16:42,388 - INFO - Successfully posted alert: gun
+2026-07-18 04:16:53,997 - INFO - ALERT TRIGGERED: gun at 0.72
+2026-07-18 04:16:56,370 - INFO - Successfully posted alert: gun
+2026-07-18 04:17:05,875 - INFO - ALERT TRIGGERED: fighting at 0.61
+2026-07-18 04:17:08,362 - INFO - Successfully posted alert: fighting
+2026-07-18 04:18:51,172 - INFO - ALERT TRIGGERED: smoke at 0.66
+2026-07-18 04:18:53,674 - INFO - Successfully posted alert: smoke
+2026-07-18 04:19:08,525 - INFO - ALERT TRIGGERED: smoke at 0.55
+2026-07-18 04:19:10,967 - INFO - Successfully posted alert: smoke
+2026-07-18 04:24:33,655 - INFO - Model loaded successfully
+2026-07-18 04:24:33,868 - INFO - Starting frame reader thread...
+2026-07-18 04:24:33,869 - INFO - System Started. Press 'q' to quit.
+2026-07-18 04:27:11,357 - INFO - Model loaded successfully
+2026-07-18 04:27:11,482 - INFO - Starting frame reader thread...
+2026-07-18 04:27:11,484 - INFO - System Started. Press 'q' to quit.
+2026-07-18 04:27:36,243 - INFO - ALERT TRIGGERED: smoke at 0.68
+2026-07-18 04:27:38,522 - INFO - Successfully posted alert: smoke
+2026-07-18 04:28:39,306 - INFO - ALERT TRIGGERED: gun at 0.62
+2026-07-18 04:28:41,989 - INFO - Successfully posted alert: gun
+2026-07-18 04:46:11,683 - INFO - Model loaded successfully
+2026-07-18 04:46:11,884 - INFO - Starting frame reader thread...
+2026-07-18 04:46:11,886 - INFO - System Started. Press 'q' to quit.
+2026-07-18 04:46:42,918 - INFO - ALERT TRIGGERED: gun at 0.75
+2026-07-18 04:46:45,219 - INFO - Successfully posted alert: gun
+2026-07-18 04:47:06,475 - INFO - ALERT TRIGGERED: gun at 0.69
+2026-07-18 04:47:08,979 - INFO - Successfully posted alert: gun
+2026-07-18 04:47:21,347 - INFO - ALERT TRIGGERED: fire at 0.59
+2026-07-18 04:47:24,139 - INFO - Successfully posted alert: fire
+2026-07-18 04:48:08,596 - INFO - ALERT TRIGGERED: fire at 0.56
+2026-07-18 04:48:10,813 - INFO - Successfully posted alert: fire
+2026-07-18 04:48:21,682 - INFO - ALERT TRIGGERED: gun at 0.75
+2026-07-18 04:48:23,900 - INFO - Successfully posted alert: gun
+2026-07-18 04:48:39,889 - INFO - ALERT TRIGGERED: gun at 0.71
+2026-07-18 04:48:42,108 - INFO - Successfully posted alert: gun
+2026-07-18 04:49:10,669 - INFO - ALERT TRIGGERED: fighting at 0.66
+2026-07-18 04:49:12,881 - INFO - Successfully posted alert: fighting
+2026-07-18 04:51:27,171 - INFO - ALERT TRIGGERED: smoke at 0.51
+2026-07-18 04:51:29,616 - INFO - Successfully posted alert: smoke
+2026-07-18 04:52:34,483 - INFO - ALERT TRIGGERED: gun at 0.64
+2026-07-18 04:52:36,808 - INFO - Successfully posted alert: gun
+2026-07-18 04:53:57,039 - INFO - ALERT TRIGGERED: gun at 0.65
+2026-07-18 04:53:59,847 - INFO - Successfully posted alert: gun
+2026-07-18 04:54:20,912 - INFO - ALERT TRIGGERED: gun at 0.80
+2026-07-18 04:54:23,105 - INFO - Successfully posted alert: gun
+2026-07-18 05:01:08,767 - INFO - Model loaded successfully
+2026-07-18 05:01:09,510 - INFO - Starting frame reader thread...
+2026-07-18 05:01:09,524 - INFO - System Started. Press 'q' to quit.
+2026-07-18 05:01:55,319 - INFO - ALERT TRIGGERED: smoke at 0.55
+2026-07-18 05:01:57,651 - INFO - Successfully posted alert: smoke
+2026-07-18 05:02:46,817 - INFO - ALERT TRIGGERED: gun at 0.62
+2026-07-18 05:02:49,266 - INFO - Successfully posted alert: gun
+2026-07-18 05:03:25,617 - INFO - ALERT TRIGGERED: gun at 0.66
+2026-07-18 05:03:28,112 - INFO - Successfully posted alert: gun
+2026-07-18 05:04:52,139 - INFO - ALERT TRIGGERED: fire at 0.55
+2026-07-18 05:04:54,350 - INFO - Successfully posted alert: fire
+2026-07-18 05:05:18,106 - INFO - ALERT TRIGGERED: gun at 0.71
+2026-07-18 05:05:20,625 - INFO - Successfully posted alert: gun
+2026-07-18 05:09:07,912 - INFO - Model loaded successfully
+2026-07-18 05:09:19,176 - ERROR - Camera source not found
+2026-07-18 05:09:39,038 - INFO - Model loaded successfully
+2026-07-18 05:09:39,578 - INFO - Starting frame reader thread...
+2026-07-18 05:09:39,580 - INFO - System Started. Press 'q' to quit.

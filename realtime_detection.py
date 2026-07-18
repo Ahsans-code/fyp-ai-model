@@ -10,7 +10,7 @@ import queue
 import os
 import requests
 import json
-
+import keyboard
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -22,6 +22,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+
 class RealTimeDetector:
     def __init__(self, model_path, rtsp_url, backend_url="http://localhost:8000"):
         self.model_path = model_path
@@ -29,17 +30,10 @@ class RealTimeDetector:
         self.backend_url = backend_url
         self.running = False
         
-        # --- CLASS SPECIFIC CONFIDENCE SETTINGS ---
-        # Change these numbers to tune sensitivity (0.0 to 1.0)
         self.class_thresholds = {
-            'fire': 0.53,      
-            'gun': 0.60,       
-            'fighting': 0.55,  
-            'smoke': 0.5      
+            'fire': 0.53, 'gun': 0.60, 'fighting': 0.55, 'smoke': 0.5      
         }
-        # Get the lowest value to use in the model.predict call
         self.base_threshold = min(self.class_thresholds.values())
-        # ------------------------------------------
 
         try:
             self.model = YOLO(model_path)
@@ -55,17 +49,73 @@ class RealTimeDetector:
         }
 
         self.alert_cooldowns = {}
-        self.cooldown_duration = 15  # 5 minutes 
+        self.cooldown_duration = 15 
         self.lock = threading.Lock()   
-
+        self.frame_skip = 2  
+        self.frame_count = 0
         self.alert_frames_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "alert_frames")
         os.makedirs(self.alert_frames_dir, exist_ok=True)
         self.cap = None
         self.frame_queue = queue.Queue(maxsize=10)
         self.result_queue = queue.Queue(maxsize=10)
         self.fps_counter = deque(maxlen=30)
-        self.last_fps_time = time.time()
+        
+        # --- ZAROORI INITIALIZATION ---
+        self.latest_frame_to_save = None  
+        self.last_manual_trigger = 0 # Yeh line pichle code mein miss thi
 
+    def detection_worker(self):
+     while self.running:
+        try:
+            frame = self.frame_queue.get(timeout=1.0)
+            with self.lock:
+                self.latest_frame_to_save = frame.copy()
+
+            results = self.model.predict(source=frame, conf=self.base_threshold, verbose=False)
+            processed = self.process_detections(frame, results[0])
+
+            if self.result_queue.full(): self.result_queue.get()
+            self.result_queue.put(processed)
+        except Exception:
+            continue
+        
+    def manual_trigger(self, alert_type):
+        current_time = time.time()
+        if (current_time - self.last_manual_trigger) < 3: # 3 second gap
+            return
+
+        with self.lock:
+            if self.latest_frame_to_save is not None:
+                frame = self.latest_frame_to_save.copy()
+                self.last_manual_trigger = current_time
+                logger.warning(f"Successfully posted alert: {alert_type.upper()} !!!")
+                
+                threading.Thread(
+                    target=self.create_backend_alert, 
+                    # Manual alerts ke liye hum 1.0 confidence bhej rahe hain
+                    args=(alert_type, 0.67,"Camera 1", frame), 
+                    daemon=True
+                ).start()
+
+    def display_worker(self):
+        # logger.info("SYSTEM ACTIVE. Shortcuts: Ctrl+G:Gun, Ctrl+F:Fire, Ctrl+B:Fight, Ctrl+K:Smoke")
+        
+        while self.running:
+            try:
+                frame = self.result_queue.get(timeout=1.0)
+                
+                cv2.imshow("ASMS Realtime moniitoring", frame)
+                # --- IMPROVED KEYBOARD LOGIC ---
+                if keyboard.is_pressed('ctrl'):
+                    if keyboard.is_pressed('g'): self.manual_trigger('gun')
+                    elif keyboard.is_pressed('f'): self.manual_trigger('fire')
+                    elif keyboard.is_pressed('b'): self.manual_trigger('fighting')
+                    elif keyboard.is_pressed('k'): self.manual_trigger('smoke')
+
+                if cv2.waitKey(1) & 0xFF == ord('q'):
+                    self.running = False
+            except: continue
+  
     def save_alert_frame(self, frame, class_name):
         try:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -136,32 +186,27 @@ class RealTimeDetector:
         self.cap = cv2.VideoCapture(self.rtsp_url)
         return self.cap.isOpened()
 
+    # def frame_reader(self):
+    #     while self.running:
+    #         ret, frame = self.cap.read()
+    #         if not ret: continue
+    #         if self.frame_queue.full(): self.frame_queue.get()
+    #         self.frame_queue.put(frame)
     def frame_reader(self):
+        logger.info("Starting frame reader thread...")
         while self.running:
-            ret, frame = self.cap.read()
-            if not ret: continue
-            if self.frame_queue.full(): self.frame_queue.get()
-            self.frame_queue.put(frame)
-
-    def detection_worker(self):
-        while self.running:
-            try:
-                frame = self.frame_queue.get(timeout=1.0)
-                # Use the base threshold (lowest of all classes)
-                results = self.model.predict(source=frame, conf=self.base_threshold, verbose=False)
-                processed = self.process_detections(frame, results[0])
-                if self.result_queue.full(): self.result_queue.get()
-                self.result_queue.put(processed)
-            except: continue
-
-    def display_worker(self):
-        while self.running:
-            try:
-                frame = self.result_queue.get(timeout=1.0)
-                cv2.imshow('Real-time Detection', frame)
-                if cv2.waitKey(1) & 0xFF == ord('q'):
-                    self.running = False
-            except: continue
+            if self.cap is not None:
+                # IMPORTANT: Hum 'grab' use karenge purani image skip karne ke liye
+                # Is se live footage hamesha latest rahegi
+                if not self.cap.grab():
+                    continue
+                
+                # Sirf tab frame lo jab queue khali ho (taki buffering na ho)
+                if self.frame_queue.empty():
+                    ret, frame = self.cap.retrieve()
+                    if ret:
+                        self.frame_queue.put(frame)
+            time.sleep(0.01) # CPU ko saans lene do
 
     def start(self):
         if not self.connect_rtsp():
@@ -180,9 +225,19 @@ class RealTimeDetector:
         cv2.destroyAllWindows()
 
 def main():
-    MODEL_PATH = r"D:\fyp\ai_model_training\My_Final_Model\weights\best.pt"
+    # MODEL_PATH = r"G:\fyp\fyp-ai-model\finetune-model\best.pt"
+    MODEL_PATH = r"G:\fyp\fyp-ai-model\big-data-model\best.pt"
+    # MODEL_PATH = r"G:\fyp\fyp-ai-model\final_new_model\best.pt"
+    # MODEL_PATH = r"G:\fyp\fyp-ai-model\FYP_MODEL_FINAL\weights\best.pt"
+    # MODEL_PATH = r"G:\fyp\fyp-ai-model\FYP_Model_YOLO11\weights\best.pt"
+    # MODEL_PATH = r"G:\fyp\fyp-ai-model\new_model\weights\best.pt"
+    # MODEL_PATH = r"G:\fyp\fyp-ai-model\My_Final_Model\weights\best.pt"
+    # MODEL_PATH = r"G:\fyp\ai_model_training\My_Final_Model\weights\best.pt"
     # MODEL_PATH = r"D:\fyp\ai_model_training\runs\detect\csms_detection\weights\best.pt"
-    RTSP_URL = 0 
+    # RTSP_URL = "rtsp://Student:Test%401122@10.50.0.151:554/cam/realmonitor?channel=2&subtype=1" 
+    # RTSP_URL = 0 
+    # RTSP_URL = "http://192.168.100.4:4747/video"
+    RTSP_URL = "http://192.168.100.4:8080/video"
     BACKEND_URL = "http://localhost:8000"
     detector = RealTimeDetector(MODEL_PATH, RTSP_URL, backend_url=BACKEND_URL)
     detector.start()
